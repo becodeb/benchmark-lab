@@ -40,15 +40,17 @@ Sin APIs, sin levantar mil servidores: **un puerto, HMR, y el arquitecto.**
 | 1 | Dashboard | Layout denso, estado, tablas, graficos, responsive | `prompts/01-dashboard.md` |
 | 2 | Escena 3D | Three.js, camara, animacion, OrbitControls | `prompts/02-threejs.md` |
 | 3 | Actividad para ninos | Logica de juego, drag-and-drop, UX | `prompts/03-kids-activity.md` |
-| 4 | Copiar una imagen | Vision + fidelidad de maquetado | `prompts/04-ui-match.md` |
+| 4 | Copiar una imagen | Vision + fidelidad + drag que activa modo oscuro | `prompts/04-ui-match.md` |
 | 5 | Landing page | Marketing, animaciones, responsive | `prompts/05-landing.md` |
 
-## El test de vision (imagen)
+## El test de vision (imagen + interaccion)
 
-1. Guardá una captura que te guste en `assets/04-target-ui.png`.
+1. Guardá una captura que te guste en `assets/04-target-ui.png` (idealmente con una
+   ventana de avion para la interaccion).
 2. Decile al agente: `hace el 4`.
-3. El agente abre la imagen, y replica lo que ve. Compara con la captura original
-   abriendo la imagen al lado.
+3. El agente abre la imagen, la replica y ademas hace que la persiana de la ventana de
+   avion se pueda **arrastrar hacia abajo**: al bajarla, la pagina pasa a modo oscuro.
+4. Compara con la captura original abriendo la imagen al lado.
 
 ## Como se puntua
 
