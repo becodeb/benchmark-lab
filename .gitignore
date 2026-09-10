@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# Artefactos de tooling (no son parte del proyecto)
+.atl/
+logs/
+
+# Imagenes de referencia: descomenta si NO queres versionarlas
+# assets/04-target-ui.png
